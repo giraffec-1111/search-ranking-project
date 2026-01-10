@@ -75,11 +75,14 @@ search-ranking-project/
 ---
 
 ## 6. Results
-### 6.1 BM25 Baseline (BEIR / SciFact)
+### BM25 Baseline (BEIR / SciFact)
 
-| Model | NDCG@10 | Precision@10 |
-|------|---------|---------------|
-| BM25 | 0.xxx   | 0.xxx         |
+- NDCG@10: 0.560
+- Precision@10: 0.076
+
+BM25 baseline은 SciFact 데이터셋에서
+상위 문서의 정렬 품질(NDCG@10)은 비교적 양호했으나,
+정답 문서의 절대적인 회수율(Precision@10)은 제한적인 모습을 보였다.
 
 ※ 이후 실험 결과는 동일한 지표 기준으로 비교
 
